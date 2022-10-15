@@ -52,7 +52,7 @@ function checkAnswer(currentLevel){
         }
   
       } else {
-        playSound("Wrong");
+        playSound("wrong");
         $("body").addClass("game-over");
         setTimeout(function() {
             $("body").removeClass("game-over");
